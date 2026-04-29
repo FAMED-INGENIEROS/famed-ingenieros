@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAMED INGENIEROS S.A.C.</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+}
+
+header{
+    background:#0a3d62;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 40px;
+}
+
+header img{
+    height:60px;
+}
+
+nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+}
+
+.hero{
+    height:90vh;
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('https://images.unsplash.com/photo-1503387762-592deb58ef4e');
+    background-size:cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.btn{
+    margin-top:20px;
+    display:inline-block;
+    background:#f39c12;
+    color:white;
+    padding:12px 25px;
+    border-radius:5px;
+    text-decoration:none;
+}
+
+.section{
+    padding:60px 40px;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    width:280px;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card i{
+    font-size:30px;
+    color:#f39c12;
+    margin-bottom:10px;
+}
+
+footer{
+    background:#0a3d62;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px;
+    border-radius:50%;
+    font-size:22px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" alt="FAMED Ingenieros">
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<section class="hero" id="inicio">
+    <div>
+        <h1>Construimos con Calidad y Confianza</h1>
+        <p>Especialistas en Ingeniería Civil</p>
+        <p>RUC: 20615127460</p>
+        <a href="#contacto" class="btn">Solicitar Cotización</a>
+    </div>
+</section>
+
+<section class="section" id="servicios">
+    <h2>Servicios</h2>
+    <div class="cards">
+        <div class="card">
+            <i class="fa-solid fa-building"></i>
+            <h3>Construcción</h3>
+            <p>Ejecución de obras civiles y edificaciones.</p>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-drafting-compass"></i>
+            <h3>Diseño de Proyectos</h3>
+            <p>Planificación y desarrollo de proyectos.</p>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-helmet-safety"></i>
+            <h3>Supervisión</h3>
+            <p>Control técnico y calidad de obras.</p>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-tools"></i>
+            <h3>Mantenimiento</h3>
+            <p>Servicios de mantenimiento estructural.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="proyectos">
+    <h2>Proyectos</h2>
+    <p>Experiencia en obras públicas y privadas a nivel nacional.</p>
+</section>
+
+<section class="section" id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: contacto@famedingenieros.com</p>
+    <p>Teléfono: +51 999 999 999</p>
+
+    <iframe 
+    src="https://www.google.com/maps?q=Peru&output=embed" 
+    width="100%" height="300" style="border:0;">
+    </iframe>
+</section>
+
+<footer>
+    <p>© 2026 FAMED INGENIEROS S.A.C.</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/51999999999" target="_blank">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+
+</body>
+</html>
