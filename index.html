@@ -17,24 +17,8 @@
 }
 
 body{
-    position:relative;
-    min-height:100vh;
+    background:#f5f7fa;
     overflow-x:hidden;
-}
-
-/* 🔥 LOGO COMO FONDO EN TODA LA PÁGINA */
-body::before{
-    content:"";
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background:url('./logo.png.jpeg') no-repeat center;
-    background-size:500px;
-    opacity:0.05;
-    z-index:-1;
-    pointer-events:none;
 }
 
 /* HEADER */
@@ -47,14 +31,13 @@ header{
     color:white;
 }
 
-/* NOMBRE EMPRESA */
 .logo-text{
     font-size:18px;
     font-weight:600;
     letter-spacing:1px;
 }
 
-/* MENÚ */
+/* MENU */
 nav{
     display:flex;
     gap:25px;
@@ -78,12 +61,14 @@ nav a:hover{
     justify-content:center;
     text-align:center;
     color:#000;
+    padding:20px;
 }
 
 .hero img{
-    width:280px;
-    margin-bottom:20px;
-    filter:drop-shadow(0 5px 10px rgba(0,0,0,0.4));
+    width:420px;
+    max-width:90%;
+    margin-bottom:25px;
+    filter:drop-shadow(0 10px 25px rgba(0,0,0,0.5));
 }
 
 .hero h1{
@@ -167,7 +152,7 @@ footer{
 <section class="hero" id="inicio">
     <div>
 
-        <!-- 🔥 LOGO CORREGIDO -->
+        <!-- 🔥 LOGO PRINCIPAL GRANDE -->
         <img src="./logo.png.jpeg" alt="FAMED INGENIEROS">
 
         <h1>Construimos con Calidad y Confianza</h1>
@@ -192,7 +177,7 @@ footer{
 
         <div class="card">
             <i class="fa-solid fa-drafting-compass"></i>
-            <h3>Diseño de Proyectos</h3>
+            <h3>Diseño</h3>
             <p>Planificación y desarrollo de proyectos.</p>
         </div>
 
@@ -222,7 +207,7 @@ footer{
 
     <p><strong>Email:</strong> famedingenierossac@gmail.com</p>
     <p><strong>Teléfono:</strong> +51 977 524 681</p>
-    <p><strong>Ubicación:</strong> Chiclayo - Chiclayo - Lambayeque - Perú</p>
+    <p><strong>Ubicación:</strong> Chiclayo - Lambayeque - Perú</p>
 
     <iframe 
     src="https://www.google.com/maps?q=Chiclayo,Peru&output=embed" 
@@ -237,7 +222,7 @@ footer{
 
 <!-- WHATSAPP -->
 <a class="whatsapp" 
-href="https://wa.me/51977524681?text=Hola%20quiero%20información%20sobre%20sus%20servicios%20de%20ingeniería" 
+href="https://wa.me/51977524681?text=Hola%20quiero%20una%20cotización%20de%20ingeniería%20civil" 
 target="_blank">
 <i class="fa-brands fa-whatsapp"></i>
 </a>
