@@ -91,6 +91,7 @@ nav a:hover{
     text-align:center;
 }
 
+/* CARDS */
 .cards{
     display:flex;
     flex-wrap:wrap;
@@ -110,6 +111,19 @@ nav a:hover{
     font-size:30px;
     color:#f39c12;
     margin-bottom:10px;
+}
+
+/* LISTAS SERVICIOS */
+.card ul{
+    padding-left:18px;
+    margin-top:10px;
+    text-align:left;
+    font-size:14px;
+    color:#333;
+}
+
+.card ul li{
+    margin-bottom:5px;
 }
 
 /* FOOTER */
@@ -152,7 +166,6 @@ footer{
 <section class="hero" id="inicio">
     <div>
 
-        <!-- 🔥 LOGO PRINCIPAL GRANDE -->
         <img src="./logo.png.jpeg" alt="FAMED INGENIEROS">
 
         <h1>Construimos con Calidad y Confianza</h1>
@@ -164,34 +177,60 @@ footer{
     </div>
 </section>
 
-<!-- SERVICIOS -->
+<!-- SERVICIOS PROFESIONALES -->
 <section class="section" id="servicios">
     <h2>Servicios</h2>
 
     <div class="cards">
+
         <div class="card">
             <i class="fa-solid fa-building"></i>
             <h3>Construcción</h3>
-            <p>Ejecución de obras civiles y edificaciones.</p>
+            <p>Ejecutamos obras civiles con altos estándares de calidad.</p>
+            <ul>
+                <li>Edificaciones residenciales</li>
+                <li>Obras industriales</li>
+                <li>Infraestructura pública</li>
+                <li>Remodelaciones y ampliaciones</li>
+            </ul>
         </div>
 
         <div class="card">
             <i class="fa-solid fa-drafting-compass"></i>
-            <h3>Diseño</h3>
-            <p>Planificación y desarrollo de proyectos.</p>
+            <h3>Diseño de Proyectos</h3>
+            <p>Desarrollo de soluciones técnicas de ingeniería.</p>
+            <ul>
+                <li>Diseño estructural</li>
+                <li>Planos arquitectónicos</li>
+                <li>Expedientes técnicos</li>
+                <li>Consultoría técnica</li>
+            </ul>
         </div>
 
         <div class="card">
             <i class="fa-solid fa-helmet-safety"></i>
             <h3>Supervisión</h3>
-            <p>Control técnico y calidad de obras.</p>
+            <p>Control técnico y seguimiento de obras.</p>
+            <ul>
+                <li>Control de calidad</li>
+                <li>Seguridad en obra</li>
+                <li>Valorizaciones</li>
+                <li>Avance de obra</li>
+            </ul>
         </div>
 
         <div class="card">
             <i class="fa-solid fa-tools"></i>
             <h3>Mantenimiento</h3>
-            <p>Servicios de mantenimiento estructural.</p>
+            <p>Soluciones para prolongar la vida útil de estructuras.</p>
+            <ul>
+                <li>Mantenimiento estructural</li>
+                <li>Reparaciones civiles</li>
+                <li>Refuerzos estructurales</li>
+                <li>Inspecciones técnicas</li>
+            </ul>
         </div>
+
     </div>
 </section>
 
